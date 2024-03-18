@@ -10,11 +10,11 @@ programa {
   
   
   
-  escreva ("\nInforme a operação matemática desejada:\n") 
+  escreva ("\nInforme a operaÃ§Ã£o matemÃ¡tica desejada:\n") 
   
-  escreva ("0 - Parar programa \n1 - Adição \n2 - Subtração \n3 - Multiplicação \n4 - Divisão \n") 
+  escreva ("\n1 - AdiÃ§Ã£o \n2 - SubtraÃ§Ã£o \n3 - MultiplicaÃ§Ã£o \n4 - DivisÃ£o \n") 
 
-  escreva ("\nOpção: ") 
+  escreva ("\nOpÃ§Ã£o: ") 
   leia (operacao)
 
 limpa() 
@@ -23,16 +23,16 @@ limpa()
  enquanto (operacao!=0) { 
   escolha (operacao) { 
     caso 1: 
-    escreva ("Informe o primeiro  número: ") 
+    escreva ("Informe o primeiro  nÃºmero: ") 
     leia (valor1) 
-    escreva ("Informe o segundo número: ") 
+    escreva ("Informe o segundo nÃºmero: ") 
     leia (valor2) 
    
 
     resultado=(valor1)+(valor2) 
 
-    escreva("\nA soma dos valores, é: ",resultado,"\n") 
-        escreva ("\nVocê deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'não':\n")
+    escreva("\nA soma dos valores, Ã©: ",resultado,"\n") 
+        escreva ("\nVocÃª deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'nÃ£o':\n")
     leia (volte)
 
     limpa()
@@ -43,15 +43,15 @@ limpa()
     }
     pare
         caso 2:
-    escreva ("Informe o primeiro número: ") 
+    escreva ("Informe o primeiro nÃºmero: ") 
     leia (valor1) 
-    escreva ("Informe o segundo número: ") 
+    escreva ("Informe o segundo nÃºmero: ") 
     leia (valor2) 
      
     resultado=(valor1)-(valor2) 
     
-    escreva("\nA subtração dos valores, é: ",resultado,"\n") 
-        escreva ("\nVocê deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'não':\n ")
+    escreva("\nA subtraÃ§Ã£o dos valores, Ã©: ",resultado,"\n") 
+        escreva ("\nVocÃª deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'nÃ£o':\n ")
     leia (volte)
     
     limpa()
@@ -60,14 +60,14 @@ limpa()
     }
     pare
     caso 3: 
-    escreva ("Informe o primeiro número: ") 
+    escreva ("Informe o primeiro nÃºmero: ") 
     leia (valor1) 
-    escreva ("Informe o segundo número: ") 
+    escreva ("Informe o segundo nÃºmero: ") 
     leia (valor2)  
      
     resultado=(valor1)*(valor2) 
-    escreva("\nA multiplicação dos valores, é: ",resultado,"\n") 
-        escreva ("\nVocê deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'não': \n")
+    escreva("\nA multiplicaÃ§Ã£o dos valores, Ã©: ",resultado,"\n") 
+        escreva ("\nVocÃª deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'nÃ£o': \n")
     leia (volte)
     
     limpa()
@@ -76,16 +76,16 @@ limpa()
     }
     pare    
     caso 4: 
-     escreva ("Informe o primeiro número: ") 
+     escreva ("Informe o primeiro nÃºmero: ") 
      leia (valor1) 
-     escreva ("Informe o segundo número: ") 
+     escreva ("Informe o segundo nÃºmero: ") 
      leia (valor2)  
 
      resultado=(valor1)/(valor2) 
 
   
-     escreva("\nA divisão dos valores, é ",resultado,"\n")
-         escreva ("\nVocê deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'não':\n")
+     escreva("\nA divisÃ£o dos valores, Ã© ",resultado,"\n")
+         escreva ("\nVocÃª deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'nÃ£o':\n")
     leia (volte)
     
     limpa()
@@ -94,11 +94,11 @@ limpa()
     }
      
 pare
-    escreva("\nA multiplicação dos valores, é: ",resultado,"\n") 
+    escreva("\nA multiplicaÃ§Ã£o dos valores, Ã©: ",resultado,"\n") 
      
     
  
-    escreva ("\nVocê deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'não':\n")
+    escreva ("\nVocÃª deseja continuar calculando? Digite 's' para 'sim' ou 'n' para 'nÃ£o':\n")
     leia (volte)
     
     limpa()
@@ -118,11 +118,9 @@ limpa()
  
    
    se (volte=='s') {
-    ("\nInforme a operação matemática desejada:\n")
-    ("--------------------------------------------------------------\n") 
-    escreva ("0 - Parar programa \n1- Adição \n2 - Subtração \n3 - Multiplicação \n4 -  Divisão \n")
-    escreva ("--------------------------------------------------------------\n") 
-    escreva ("Opção: ") 
+    ("\nInforme a operaÃ§Ã£o matemÃ¡tica desejada:\n")
+    escreva (" \n1- AdiÃ§Ã£o \n2 - SubtraÃ§Ã£o \n3 - MultiplicaÃ§Ã£o \n4 -  DivisÃ£o \n")
+    escreva ("OpÃ§Ã£o: ") 
     leia (operacao)
   }
 
@@ -130,6 +128,6 @@ limpa()
 
 }
    
-  escreva ("Você escolheu sair do programa.")
+  escreva ("VocÃª escolheu sair do programa.")
  }
 }
